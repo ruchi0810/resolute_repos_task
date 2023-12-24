@@ -1,0 +1,12 @@
+.feature-get-start-btn {
+  color: #002365;
+  font-size: 1rem;
+  padding: 0.9rem 2.5rem;
+  background: white;
+  margin: 2rem 0 1rem 0;
+}
+
+.feature-get-start-btn:hover {
+  color: rgba(2, 43, 103, 1);
+  background-color: #21e287;
+}

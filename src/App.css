@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Avenir Next LT Pro - Black";
+  src: url("./fonts/AvenirLTProBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next LT Pro - Regular";
+  src: url("./fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next LT Pro - Bold";
+  src: url("./fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next LT Pro - BoldCn";
+  src: url("./fonts/AvenirNextLTPro-BoldCn.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next LT Pro - Demi";
+  src: url("./fonts/AvenirNextLTPro-Demi.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir Next LT Pro - It";
+  src: url("./fonts/AvenirNextLTPro-It.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.black_this_tag {
+  font-family: "Avenir Next LT Pro - Black";
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bold_this_tag {
+  font-family: "Avenir Next LT Pro - Bold";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.boldcn_this_tag {
+  font-family: "Avenir Next LT Pro - BoldCn";
 }
-
-.App-link {
-  color: #61dafb;
+.demi_this_tag {
+  font-family: "Avenir Next LT Pro - Demi";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.it_this_tag {
+  font-family: "Avenir Next LT Pro - It";
 }

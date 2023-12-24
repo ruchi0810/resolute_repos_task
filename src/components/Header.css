@@ -1,0 +1,9 @@
+.sticky_navbar {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #cccccc;
+}
+

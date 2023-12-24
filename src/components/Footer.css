@@ -1,0 +1,78 @@
+/* Footer */
+.footer {
+  background: #002365;
+  color: white;
+}
+.footer .line {
+  opacity: 1;
+}
+.footer .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 20rem 5rem 10rem;
+}
+.footer .links .icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.footer .links .icons .icon {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer .links .icons-flags {
+  display: flex;
+  gap: 30px;
+  margin-top: 18px;
+  margin-left: -8%;
+  transform: scale(0.8);
+}
+
+.footer .links .icons-flags .icon-flag {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(0.08);
+}
+.footer .links .component_footer {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.footer .links .component_footer .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+.footer .cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 260px;
+  gap: 2rem 2rem;
+  font-size: 18px;
+}
+.footer .cities div {
+  cursor: pointer;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 10px 0 20px 0;
+}

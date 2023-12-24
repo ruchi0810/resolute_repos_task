@@ -1,0 +1,65 @@
+/* Card.css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.cardfe {
+  width: 250px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 20px gray;
+  border-radius: 15px;
+  color: #4a3e33;
+  background-color: white;
+  overflow: hidden;
+  padding: 5%;
+}
+
+.cardfe:hover {
+  color: white;
+  background: linear-gradient(
+    145deg,
+    rgba(2, 43, 103, 1) 0%,
+    rgba(28, 199, 130, 1) 100%
+  );
+}
+
+.cardfe:hover .cardfe-image {
+  transform: scale(0.7);
+}
+.cardfe .cardfe-btn:hover {
+  color: rgba(2, 43, 103, 1);
+  background-color: white;
+  border: 2px solid #022b67;
+}
+
+.cardfe-image {
+  transform: scale(0.7);
+
+  /* margin-left: 23%; */
+}
+.cardfe-btn {
+  background: #022b67;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 37px;
+}
+
+.cardfe-title {
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,38 @@
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 100vh;
+  margin-top: 4rem;
+  /* scroll */
+  padding-top: 3rem;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.c-right .user {
+  width: 19.5rem;
+  height: 3.5rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: black;
+  padding: 0px 10px;
+  opacity: 1;
+}

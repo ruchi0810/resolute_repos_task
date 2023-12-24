@@ -1,0 +1,12 @@
+.experience-btn {
+  background: #002365;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 12px 32px 12px 32px;
+  margin-left: 10px;
+}
+.experience-btn:hover {
+  color: rgba(2, 43, 103, 1);
+  background-color: white;
+  border: 2px solid #022b67;
+}

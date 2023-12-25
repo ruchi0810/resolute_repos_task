@@ -5,5 +5,49 @@
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #cccccc;
+  transition: 0.2s ease;
+}
+.dropdown-img {
+  margin-right: 5px;
+  width: 23px;
+  height: 23px;
 }
 
+.part1 .dropdown-item {
+  margin-left: -20%;
+  padding: 5% 0% 5% 0%;
+}
+
+.part2 .dropdown-item {
+  margin-right: 18%;
+  padding: 5% 0% 5% 0%;
+}
+
+.part1 .dropdown-item:hover {
+  background: #f0f0f0;
+  transition: background-color 0.2s ease;
+  color: #183874;
+}
+.part2 .dropdown-item:hover {
+  background: #f0f0f0;
+  transition: background-color 0.2s ease;
+  color: #183874;
+}
+.dropdown-img-product {
+  width: 40px;
+  height: 40px;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+.product-list {
+  padding: 0% 1%;
+}
+.product-list .dropdown-item-product {
+  font-size: 18px;
+  padding: 0.5% 0;
+}
+.product-list .dropdown-item-product:hover {
+  background: #f0f0f0;
+  color: #183874;
+  transition: background-color 0.2s ease;
+}

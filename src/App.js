@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
+import Header1 from "./components/Header1";
 import Services from "./components/Services";
 import IntroHeader from "./components/IntroHeader";
 import Experience from "./components/Experience";

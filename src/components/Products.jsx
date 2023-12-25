@@ -27,8 +27,8 @@ function Products() {
           justifyContent: "center",
         }}
       >
-        <h1 style={{ fontSize: "36px", padding: "6% 0px 0px 0px" }}>
-          Our Products
+        <h1 style={{ fontSize: "38px", padding: "6% 0px 0px 0px" }}>
+          Our <strong>Products</strong>
         </h1>
         <img src={Line} alt="" style={{ padding: "0px 0px 3% 0px" }} />
       </div>

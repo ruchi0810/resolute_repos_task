@@ -48,12 +48,12 @@ function Happyc() {
           justifyContent: "center",
         }}
       >
-        <h1 style={{ fontSize: "36px", padding: "18% 0px 0px 0px" }}>
-          Our Happy Clients
+        <h1 style={{ fontSize: "38px", padding: "18% 0px 0px 0px" }}>
+          Our <strong>Happy Clients</strong>
         </h1>
         <img src={Line} alt="" />
       </div>
-      <div className="container-fluid" style={{ padding: "5% 6% 5% 6%" }}>
+      <div className="container-fluid" style={{ padding: "5% 2% 5% 2%" }}>
         <div className="row" style={{ marginTop: "-40px" }}>
           <div className="col-1"></div>
           <div className="col-2">

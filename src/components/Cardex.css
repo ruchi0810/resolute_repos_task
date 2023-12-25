@@ -18,8 +18,9 @@
     hsl(195deg 100% 35%) 50%,
     hsl(155deg 77% 49%) 100%
   );
-
+  padding: 5px 0px;
   overflow: hidden;
+  margin-bottom: 70px;
 }
 
 .cardex-title1 {

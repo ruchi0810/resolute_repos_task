@@ -9,9 +9,9 @@ const Cardex = ({ title1, title2 }) => {
           className="title1-ex"
           style={{
             color: "white",
-            fontWeight: "bold",
-            fontSize: "40px",
-            padding: "15px",
+
+            fontSize: "50px",
+            
           }}
         >
           {title1}
@@ -21,7 +21,6 @@ const Cardex = ({ title1, title2 }) => {
           style={{
             color: "white",
             fontSize: "20px",
-            padding: "0px 0px 15px 0px",
           }}
         >
           {title2}

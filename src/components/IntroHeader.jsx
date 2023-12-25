@@ -30,7 +30,7 @@ function IntroHeader() {
             <h1
               style={{
                 padding: "20px 0px 0px 0px",
-                fontSize: "32px",
+                fontSize: "33px",
                 fontWeight: 500,
               }}
             >
@@ -38,8 +38,8 @@ function IntroHeader() {
             </h1>
             <h1
               style={{
-                fontSize: "3.5rem",
-                fontWeight: 900,
+                fontSize: "3.3rem",
+                fontWeight: "bold",
                 color: "#002365",
               }}
             >
@@ -47,7 +47,7 @@ function IntroHeader() {
             </h1>
             <h1
               style={{
-                fontSize: "32px",
+                fontSize: "33px",
               }}
             >
               For All Restaurant Types

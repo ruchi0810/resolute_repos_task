@@ -46,22 +46,22 @@ function Header() {
       className="sticky_navbar"
     >
       <div>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" className="logo" />
       </div>
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "2.6rem",
+          gap: "2rem",
           alignItems: "center",
         }}
       >
         <div
           onMouseEnter={handleTourHover}
           onMouseLeave={handleTourLeave}
-          style={{ position: "relative", cursor: "pointer" }}
+          style={{ position: "relative", cursor: "pointer", color: "#3a3a3a" }}
         >
-          <p style={{ cursor: "pointer", fontSize: "17px" }}>
+          <p style={{ cursor: "pointer", fontSize: "17px", color: "#3a3a3a" }}>
             Tour <MdArrowDropDown size={22} />
           </p>
           {showTourSubMenu && (
@@ -160,7 +160,7 @@ function Header() {
           onMouseLeave={handleProductLeave}
           style={{ position: "relative", cursor: "pointer" }}
         >
-          <p style={{ cursor: "pointer", fontSize: "17px" }}>
+          <p style={{ cursor: "pointer", fontSize: "17px", color: "#3a3a3a" }}>
             Products <MdArrowDropDown size={22} />
           </p>
           {showProductSubMenu && (
@@ -209,17 +209,23 @@ function Header() {
             </ul>
           )}
         </div>
-        <p style={{ cursor: "pointer", fontSize: "17px" }}>About</p>
-        <p style={{ cursor: "pointer", fontSize: "17px" }}>RestroTrail</p>
-        <p style={{ cursor: "pointer", fontSize: "17px" }}>Contact</p>
+        <p style={{ cursor: "pointer", fontSize: "17px", color: "#3a3a3a" }}>
+          About
+        </p>
+        <p style={{ cursor: "pointer", fontSize: "17px", color: "#3a3a3a" }}>
+          RestroTrail
+        </p>
+        <p style={{ cursor: "pointer", fontSize: "17px", color: "#3a3a3a" }}>
+          Contact
+        </p>
         <p
           type="button"
           class="btn btn-primary btn-xxl"
           style={{
             background:
               "linear-gradient(145deg, rgba(2,43,103,1) 0%, rgba(28,199,130,1) 100%)",
-            fontSize: "18px",
-            padding: "10px 25px",
+            fontSize: "17px",
+            padding: "10px 22px",
           }}
         >
           Book a demo

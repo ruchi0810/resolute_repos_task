@@ -36,8 +36,8 @@ function Experience() {
             style={{ padding: "50px", marginTop: "30px", marginLeft: "-5%" }}
           >
             <div className="heading_first">
-              <h1 style={{ fontSize: "38px", fontWeight: "bold" }}>
-                What is Repos?
+              <h1 style={{ fontSize: "38px" }}>
+                What is <strong>Repos?</strong>
               </h1>
               <img src={Line} alt="" />
             </div>

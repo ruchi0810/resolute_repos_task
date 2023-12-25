@@ -50,8 +50,8 @@ function Feature() {
                       justifyContent: "center",
                     }}
                   >
-                    <h1 style={{ fontSize: "36px", padding: "5% 0px 0px 0px" }}>
-                      Explore our awesome Feature Set
+                    <h1 style={{ fontSize: "38px", padding: "7% 0px 0px 0px" }}>
+                      Explore our awesome <strong>Feature Set</strong>
                     </h1>
                     <img src={Line} alt="" />
                   </div>
@@ -61,7 +61,7 @@ function Feature() {
                       style={{
                         gap: "110px",
 
-                        marginTop: "4%",
+                        marginTop: "7%",
                         paddingBottom: "7rem",
                       }}
                     >

@@ -25,8 +25,8 @@ function Services() {
             marginTop: "5%",
           }}
         >
-          <h1 style={{ fontSize: "36px" }}>
-            What type of Restaurant uses RePOS?
+          <h1 style={{ fontSize: "38px" }}>
+            What type of Restaurant uses <strong>RePOS?</strong>
           </h1>
           <img src={Line} alt="" />
         </div>

@@ -16,7 +16,7 @@ function Experience() {
             <div className="row">
               <Cardex title1={"7+"} title2={"Countries"} />
             </div>
-            <div className="row" style={{ marginTop: "10%" }}>
+            <div className="row" style={{ marginTop: "6%" }}>
               <Cardex title1={"100+"} title2={"Features"} />
             </div>
           </div>
@@ -27,7 +27,7 @@ function Experience() {
             <div className="row">
               <Cardex title1={"50+"} title2={"Cities"} />
             </div>
-            <div className="row" style={{ marginTop: "10%" }}>
+            <div className="row" style={{ marginTop: "6%" }}>
               <Cardex title1={"750+"} title2={"outlets"} />
             </div>
           </div>

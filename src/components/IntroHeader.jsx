@@ -43,7 +43,7 @@ function IntroHeader() {
                 color: "#002365",
               }}
             >
-              POS SOFTWARE SOLUTION
+              <strong>POS SOFTWARE SOLUTION</strong>
             </h1>
             <h1
               style={{

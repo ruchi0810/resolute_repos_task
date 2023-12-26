@@ -16,18 +16,18 @@ function Experience() {
             <div className="row">
               <Cardex title1={"7+"} title2={"Countries"} />
             </div>
-            <div className="row" style={{ marginTop: "20%" }}>
+            <div className="row" style={{ marginTop: "10%" }}>
               <Cardex title1={"100+"} title2={"Features"} />
             </div>
           </div>
           <div
             className="col-3"
-            style={{ padding: "6% 0 0 0", marginLeft: "-5px" }}
+            style={{ padding: "5% 0 0 0", marginLeft: "-5px" }}
           >
             <div className="row">
               <Cardex title1={"50+"} title2={"Cities"} />
             </div>
-            <div className="row" style={{ marginTop: "20%" }}>
+            <div className="row" style={{ marginTop: "10%" }}>
               <Cardex title1={"750+"} title2={"outlets"} />
             </div>
           </div>
@@ -36,7 +36,7 @@ function Experience() {
             style={{ padding: "50px", marginTop: "30px", marginLeft: "-5%" }}
           >
             <div className="heading_first">
-              <h1 style={{ fontSize: "38px" }}>
+              <h1 style={{ fontSize: "38px", color: "#333333" }}>
                 What is <strong>Repos?</strong>
               </h1>
               <img src={Line} alt="" />
